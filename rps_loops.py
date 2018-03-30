@@ -3,7 +3,7 @@ player_wins = 0
 computer_wins = 0
 winning_score = 5
 while player_wins < winning_score and computer_wins < winning_score:
-	print(f"Player score: {player_wins} Compuer score: {computer_wins}")
+	print(f"Player score: {player_wins} Computer score: {computer_wins}")
 	print("Rock...")
 	print("Paper...")
 	print("Scissors...")
@@ -48,9 +48,9 @@ while player_wins < winning_score and computer_wins < winning_score:
 	else:
 		print("Please enter a valid move!")
 if player_wins > computer_wins:
-	print ("Congrats, you won")
+	print ("Congrats, you won!")
 elif player_wins == computer_wins:
 	print(" It's a tie!")
 else:
 	print("oh, no Computer won!")
-print(f"Final score ... Player score: {player_wins} Compuer score: {computer_wins}")
+print(f"Final score ... Player score: {player_wins} Computer score: {computer_wins}")
