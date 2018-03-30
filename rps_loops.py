@@ -52,5 +52,5 @@ if player_wins > computer_wins:
 elif player_wins == computer_wins:
 	print(" It's a tie!")
 else:
-	print("oh, no Computer won!")
+	print("Oh no, Computer won!")
 print(f"Final score ... Player score: {player_wins} Computer score: {computer_wins}")
